@@ -10,9 +10,9 @@
    <section>
     <h1>Par ou Impar</h1>
     <p>Escolha uma opção:</p>
-    <div class="opc">
-        <input type="button" value="PAR" id="btn-par">
-        <input type="button" value="ÍMPAR" id="btn-impar">
+    <div>
+        <input type="button" value="PAR" id="btn-par" class="opc">
+        <input type="button" value="ÍMPAR" id="btn-impar" class="opc">
     </div>
     <div id="displayOpc">
 
@@ -29,7 +29,10 @@
     </div>
     <div id="displayNum"></div>
     <input type="button" value="JOGAR" id="jogar">
+    <div id="resultado"></div>
+    
    </section>
+   <button onclick="location.reload()" id="repetir">Jogar de Novo</button>
    <script src="main.js"></script>
 </body>
 </html>
